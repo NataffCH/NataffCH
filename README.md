@@ -1,6 +1,6 @@
 <div align="center">
   
-# &nbsp; Nathan Affolter &nbsp; 
+# &nbsp; Blockchain Bot Development &nbsp; 
 
 </div>
 
