@@ -146,12 +146,12 @@
       <div class="about-get-to-know">
         <div class="about__content">
           <div class="about__content_explain">
-            <div class="about__content-details" style="padding: 0.1rem; margin-left: 50px; margin-top: 10px;">
+            <div class="about__content-details" style="padding: 0.1rem; margin-left: 50px; margin-bottom: 7px;">
               <img src="./public/trading.png" style="width: 70%; height: 30%; margin-bottom: 10px;">
             </div>
           </div>
           <div class="about__content-skills">
-            <p style="font-size: 30px; margin-bottom: 10px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: rgb(133, 136, 138);">
+            <p style="font-size: 30px; margin-bottom: 20px; margin-top: 20px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: rgb(133, 136, 138);">
               Blockchain Skills</p>
             <div class="skills">
               <div class="skills__skill">Blockchain</div>
@@ -295,16 +295,16 @@
           <div class="text-box">
             <a target="_blank">
               <img
-                src="public/crypto-trading-bot/1.png"
+                src="public/tradingview-webhook/1.png"
                 alt="image"
-                onmouseover="hoverImage7(this)"
-                onmouseout="unhoverImage7(this)"
+                onmouseover="hoverImage8(this)"
+                onmouseout="unhoverImage8(this)"
               />
             </a>
             <div class="project-content">
               <h1>Tradingview-Webhook</h1>
               <div class="project-links">
-                <button class="tags">Node.js</button>
+                <button class="tags">Python</button>
               </div>
             </div>
           </div>
@@ -568,7 +568,14 @@
       function hoverImage7(element) {
         element.src = "public/crypto-trading-bot/2.png";
       }
+      
+      function unhoverImage8(element) {
+        element.src = "public/tradingview-webhook/1.png";
+      }
 
+      function hoverImage8(element) {
+        element.src = "public/tradingview-webhook/2.png";
+      }
       // JavaScript to hide the splash screen when the page is fully loaded
       document.addEventListener("DOMContentLoaded", function () {
         var splashScreen = document.getElementById("splash-screen");
