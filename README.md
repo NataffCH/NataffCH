@@ -1,6 +1,6 @@
 <div align="center">
   
-# &nbsp; Blockchain Bot Development &nbsp; 
+# &nbsp; Front-End && Blockchain Bot Development &nbsp; 
 
 </div>
 
